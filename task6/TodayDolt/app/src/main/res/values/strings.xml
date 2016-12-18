@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TodayDolt</string>
+    <string name="add_new_event">添加新事件</string>
+    <string name="action_settings">添加事件</string>
+    <string name="tvEvnetTimeStr">提醒整点时间</string>
+    <string name="tvEventContentStr">事件内容</string>
+    <string name="btnStorageStr">存储</string>
+    <string name="toastAdd">添加成功</string>
+    <string name="toastDelete">删除成功</string>
+    <string name="inputTimeHint">请输入整点时间</string>
+</resources>

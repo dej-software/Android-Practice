@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jikexueyuan.baiduwaimai.MainActivity">
+
+    // 用于放置Fragment
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.jikexueyuan.baiduwaimai.gradientUI.GradientIconView
+                android:id="@+id/iconHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bottom_icon="@drawable/tab_icon_home"
+                app:top_icon="@drawable/tab_icon_home_selected" />
+
+            <com.jikexueyuan.baiduwaimai.gradientUI.GradientTextView
+                android:id="@+id/tvHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bottom_text_color="@color/gray"
+                app:text="首页"
+                app:text_size="12sp"
+                app:top_text_color="@color/red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.jikexueyuan.baiduwaimai.gradientUI.GradientIconView
+                android:id="@+id/iconIndent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bottom_icon="@drawable/tab_icon_dingdan"
+                app:top_icon="@drawable/tab_icon_dingdan_selected" />
+
+            <com.jikexueyuan.baiduwaimai.gradientUI.GradientTextView
+                android:id="@+id/tvIndent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bottom_text_color="@color/gray"
+                app:text="订单"
+                app:text_size="12sp"
+                app:top_text_color="@color/red" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.jikexueyuan.baiduwaimai.gradientUI.GradientIconView
+                android:id="@+id/iconMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bottom_icon="@drawable/tab_icon_me"
+                app:top_icon="@drawable/tab_icon_me_selected" />
+
+            <com.jikexueyuan.baiduwaimai.gradientUI.GradientTextView
+                android:id="@+id/tvMe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:bottom_text_color="@color/gray"
+                app:text="我的"
+                app:text_size="12sp"
+                app:top_text_color="@color/red" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

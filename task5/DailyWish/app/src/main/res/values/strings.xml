@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DailyWish</string>
+    <string name="btnWishStr">写出你今天的愿望</string>
+    <string name="showWishStr"></string>
+    <string name="tvTipStr">输入你今天的愿望</string>
+    <string name="confirmStr">确定</string>
+    <string name="cancelStr">取消</string>
+</resources>

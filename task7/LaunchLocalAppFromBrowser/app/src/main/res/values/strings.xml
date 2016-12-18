@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LaunchLocalAppFromBrowser</string>
+    <string name="tvMessageStr">Click the button below to show the local activity,
+        and you can also navigate to the url \"local://example.app\" using you web browser
+        to launch the local activity.
+    </string>
+    <string name="btnStartActivityStr">Launch the local activity</string>
+    <string name="tvLocalStr">This is a local app.</string>
+</resources>

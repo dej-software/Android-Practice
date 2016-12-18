@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bar">
+
+        <!-- 设置焦点，避免启动时焦点在EditText，弹出键盘-->
+        <View
+            android:layout_width="0dip"
+            android:layout_height="0dip"
+            android:focusableInTouchMode="true" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/layout_shape">
+
+            <ImageView
+                android:id="@+id/ivSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/non_catering_icon_search" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/ivSearch"
+                android:layout_toRightOf="@+id/ivSearch"
+                android:background="@null"
+                android:hint="搜索商户或商户名称"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/background"
+        android:dividerHeight="1dp"></ListView>
+</LinearLayout>

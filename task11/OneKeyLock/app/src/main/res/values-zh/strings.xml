@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">一键锁屏</string>
+    <string name="lock_setting">一键锁屏设置</string>
+    <string name="one_lock">一键锁屏</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">极客通信录</string>
+    <string name="btnAddStr">添加</string>
+    <string name="add_title">添加联系人</string>
+    <string name="add_ok">确定</string>
+    <string name="add_cancel">取消</string>
+    <string name="add_name">名字：</string>
+    <string name="add_phone">电话：</string>
+    <string name="call_title">请选择</string>
+    <string name="call_phone">打电话</string>
+    <string name="send_sms">发短信</string>
+    <string name="call_cancel">取消</string>
+    <string name="add_invalid">请输入非空联系人信息！</string>
+</resources>

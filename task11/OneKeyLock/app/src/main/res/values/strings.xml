@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OneKeyLock</string>
+    <string name="one_lock">OneLock</string>
+    <string name="lock_setting">LockSetting</string>
+</resources>

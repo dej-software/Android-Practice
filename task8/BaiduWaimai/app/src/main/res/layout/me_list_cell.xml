@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--用于展示“我的”列表项-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_me_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/ivMeList"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/s_location" />
+
+    <TextView
+        android:id="@+id/tvMeList"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/ivMeList"
+        android:layout_toRightOf="@+id/ivMeList"
+        android:gravity="center"
+        android:text="我的送餐地址" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/wallet_base_indicator_arrow" />
+
+</RelativeLayout>
